@@ -1,0 +1,33 @@
+Health Status
+--------------
+
+curl -XGET 'http://elastic:Q2iWeD7hb62rZYWe2Slx@localhost:9200/_cluster/health?pretty'
+
+curl -XGET 'http://elastic:Q2iWeD7hb62rZYWe2Slx@localhost:9200?pretty'
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html
+
+---------
+Templates
+---------
+
+curl -XGET 'http://elastic:Q2iWeD7hb62rZYWe2Slx@localhost:9200/_template?pretty'
+
+Shards Level
+------------
+
+curl -XGET 'http://elastic:Q2iWeD7hb62rZYWe2Slx@localhost:9200/_cluster/health/?level=shards'
+
+Indices level data
+-------------------
+curl -XGET 'http://elastic:Q2iWeD7hb62rZYWe2Slx@localhost:9200/logstash-*?pretty'
+
+
+WIKI
+----
+
+https://logz.io/learn/complete-guide-elk-stack/#installing-elk
+
+
+
+
